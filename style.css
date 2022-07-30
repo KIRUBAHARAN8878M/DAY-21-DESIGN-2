@@ -1,0 +1,30 @@
+body{  
+    background-image: url("https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: calc(100vh - 60px);
+        background: #fff;
+        padding-right: 10px;
+        /* overflow-y: scroll; */
+        overflow-y:auto;
+    }
+    ::-webkit-scrollbar{
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track{
+    
+        box-shadow: inset 0 0 3px grey;
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb{
+       background:#777;
+       border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background:#555;
+    }
